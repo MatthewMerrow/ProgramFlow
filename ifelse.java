@@ -1,4 +1,4 @@
-public class HelloWorld
+public class ifelse
 {
 
     int a = 5;
@@ -10,7 +10,8 @@ public class HelloWorld
         if (a == 5) {
         System.out.println("SUCCESS");
     } else {
-        System.out.println("FAILURE")
+        System.out.println("FAILURE");
+        
     }
     
     if (b == 2) {
@@ -19,9 +20,25 @@ public class HelloWorld
         System.out.println("FAILURE");
         
     }
+    
+    if (c != 1) {
+        System.out.println("SUCCESS");
+    } else {
+        System.out.println("FAILURE");
+    
+    }
+    
+    if (d == -8 && a == 4) {
+        System.out.println("SUCCESS");
+    } else {
+        System.out.println("FAILURE");
+        
+    }
+    }
+    
     public static void main(String[] args)
     {        
-        HelloWorld hw = new HelloWorld();
+        ifelse hw = new ifelse();
         hw.run();
     }
 }
